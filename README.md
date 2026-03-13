@@ -57,7 +57,6 @@ The dashboard includes multiple visuals designed to highlight different aspects 
 * **Relational Data Modeling**
 
 
-
 ## 📁 Dataset Source
 
 The project uses the **Northwind dataset**, downloaded from **Kaggle in SQL format** and imported into Power BI for analysis.
