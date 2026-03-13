@@ -109,4 +109,6 @@ Relational Data Modeling
 
 📁 Dataset Source
 
-Northwind retail dataset imported from a SQL database and analyzed within Power BI.
+The dataset used in this project is the Northwind retail dataset, downloaded from Kaggle in SQL format.
+
+The SQL file was imported into a relational database and then connected to Power BI for analysis. The dataset contains multiple related tables representing customers, products, categories, and sales transactions.
