@@ -40,6 +40,7 @@ These metrics provide insight into both overall business performance and profita
 
 ## 📈 Dashboard Visuals
 
+![Northwind Dashboard](northwind%20dashboard.png)
 The dashboard includes multiple visuals designed to highlight different aspects of sales performance:
 
 * **Monthly Sales Trend** – shows how revenue changes over time
