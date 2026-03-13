@@ -1,63 +1,65 @@
-📊 Northwind Retail Sales Dashboard (Power BI)
 
-Interactive Power BI dashboard analyzing retail sales performance using the Northwind dataset.
+# 📊 Northwind Retail Sales Dashboard (Power BI)
 
-📌 Project Overview
+Interactive Power BI dashboard built to analyze retail sales performance using the **Northwind dataset**. The project focuses on identifying revenue trends, product performance, and geographic sales distribution through data modeling and DAX-based metrics.
 
-This project analyzes retail sales data to understand revenue trends, product performance, and geographic sales distribution. The dashboard provides an executive-level view of business performance through key revenue and profitability metrics.
+## 📌 Project Overview
 
-🏗 Data Model
+The goal of this project was to design a **clear and interactive business intelligence dashboard** that helps understand how sales and profit are generated across products, categories, customers, and regions.
 
-The data was structured using a relational model similar to a star schema.
+The dashboard provides a high-level overview of retail performance while also enabling deeper analysis of individual product and category contributions.
 
-Tables used:
 
-salesorder – order information and transaction dates
+## 🏗 Data Model
 
-orderdetail – product sales transactions
+The dataset was imported from a **SQL file downloaded from Kaggle** and modeled in Power BI using relational table connections.
 
-product – product information
+Tables used in the model:
 
-category – product category classification
+* **salesorder** – order information and transaction dates
+* **orderdetail** – product sales details including quantity, price, and discount
+* **product** – product information
+* **category** – product category classification
+* **customer** – customer details and location
 
-customer – customer details and location
+Relationships were created between these tables to enable accurate aggregation of sales and profitability metrics.
 
-Relationships between these tables enable accurate analysis of sales, profit, and customer activity.
 
-📊 Key Metrics (DAX)
 
-Total Sales
+## 📊 Key Metrics (DAX)
 
-Total Profit
+Several measures were created using DAX to analyze sales performance:
 
-Profit Margin %
+* **Total Sales**
+* **Total Profit**
+* **Profit Margin (%)**
+* **Total Orders**
+* **Average Order Value**
 
-Total Orders
+These metrics provide insight into both overall business performance and profitability.
 
-Average Order Value
+## 📈 Dashboard Visuals
 
-📈 Dashboard Visuals
+The dashboard includes multiple visuals designed to highlight different aspects of sales performance:
 
-Monthly Sales Trend – revenue trend over time
+* **Monthly Sales Trend** – shows how revenue changes over time
+* **Revenue by Country** – identifies geographic sales contribution
+* **Category Contribution Treemap** – highlights categories generating the most revenue and profit
+* **Top Products by Revenue** – shows best performing products
+* **Product Performance Table** – detailed analysis of product sales, quantity, and profitability
 
-Revenue by Country – geographic sales distribution
 
-Category Contribution Treemap – category-level performance
+## 🛠 Tools & Technologies
 
-Top Products by Revenue – highest performing products
+* **Power BI** – dashboard development and visualization
+* **Power Query** – data cleaning and transformation
+* **DAX** – KPI and metric calculations
+* **Relational Data Modeling**
 
-Product Performance Table – product-level sales and profitability analysis
 
-🛠 Tools Used
 
-Power BI
+## 📁 Dataset Source
 
-Power Query
+The project uses the **Northwind dataset**, downloaded from **Kaggle in SQL format** and imported into Power BI for analysis.
 
-DAX
 
-Data Modeling
-
-📁 Dataset
-
-Northwind dataset downloaded from Kaggle in SQL format and imported into Power BI for analysis.
